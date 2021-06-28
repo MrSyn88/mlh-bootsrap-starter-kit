@@ -4,3 +4,8 @@ setting colors, changing the width and
 height of things, and beyond! The project
 also includes Bootstrap's CSS  so you can
 use that without typing it in here! */
+
+/*This is sample CSS that adds a blank line under the carousel!*/
+.carousel {
+    margin-bottom: lem;
+}

@@ -2,18 +2,18 @@
 
 <head>
     <!-- This is your page's title! This is what will be shown on the top of the screen and on Google -->
-    <title>‼ Website name goes here</title>
+    <title>🔴 Website name goes here</title>
 
     <!-- CSS is how you style a website. Included are Bootstrap's CSS file and one you may edit yourself! -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="/assets/css/styles.css"> <!-- you can edit this file and include your own styles! -->
+    <link href="./assets/css/styles.css" rel="stylesheet"> <!-- you can edit this file and include your own styles! -->
 
     <!-- This is metadata; it is used to specify useful things such as keywords and a website description -->
     <meta charset="UTF-8">
-    <meta name="keywords" content="‼ Put your keywords here, eg: BLAHAJ, Jacklyn, MLH">
-    <meta name="description" content="‼ Type a description here about your webpage">
-    <meta name="author" content="‼ Your name here">
+    <meta name="keywords" content="🔴 Put your keywords here, eg: BLAHAJ, Jacklyn, MLH">
+    <meta name="description" content="🔴 Type a description here about your webpage">
+    <meta name="author" content="🔴 Your name here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -21,9 +21,12 @@
 
 <body>
 
+    <!-- This is your Navbar! It shows links at the top of the page! -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">‼ Website name goes here</a>
+            <a class="navbar-brand" href="./index.html">🔴 Website name goes here</a>
+
+            <!-- This is Bootstrap witchcraft 🧙‍♀️! Automatically hides navbar on mobile and adds a button to open it!-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,17 +35,114 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">🔴 Link 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="./index.html">🔴 Link 2</a>
                     </li>
             </div>
         </div>
     </nav>
 
+    <br />
+
+    <!-- This is a container! Automaticaly uses a magic indent to keep you content away from the sides! -->
+    <div class="container">
+        <h1>Sample Header Text 👏</h1>
+
+        <!-- This is an example of a carousel! It displays multiple images! -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <!-- 🔴 Swap these with your images -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/fiesta1.jpeg" class="d-block w-100"
+                        alt="🔴 Adding alt text for accessibility is good practice">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/fiesta2.jpeg" class="d-block w-100"
+                        alt="🔴 Adding alt text for accessibility is good practice">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/fiesta3.jpeg" class="d-block w-100"
+                        alt="🔴 Adding alt text for accessibility is good practice">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- This is an example of a responsive two column layout! -->
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <!-- Placeholder paragraphs -->
+                <p>🔴Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, illo? Libero laborum quod dolore
+                    necessitatibus, esse et pariatur, quis quam, ipsa a repudiandae! Aliquid sapiente corporis in eaque
+                    reprehenderit pariatur?</p>
+                <p>🔴Lorem ipsum dolor sit amet consectetur adipisicing elit. Non commodi optio nobis nostrum recusandae
+                    voluptatem laudantium, voluptates dicta id tenetur asperiores praesentium consequatur iste? Corporis
+                    odit libero rerum placeat ab?</p>
+                <p>🔴Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatum recusandae, aperiam rem
+                    architecto nobis vel iusto quisquam incidunt velit eveniet et, sapiente adipisci molestiae in magnam
+                    necessitatibus consequuntur cupiditate?</p>
+                <p>🔴Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto iure voluptate dicta,
+                    voluptatibus id officiis repudiandae perspiciatis unde, odio quisquam perferendis dolore facilis
+                    qui. Voluptate incidunt minus neque quia.</p>
+                <p>🔴Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam reiciendis labore numquam
+                    quibusdam
+                    obcaecati cumque ut in corporis voluptatem dicta. Eum eius atque minus distinctio harum est ipsa,
+                    vel commodi.</p>
+                <p>🔴Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea totam doloribus, adipisci blanditiis,
+                    ipsum fugit veritatis est facere nostrum minima perspiciatis ex a temporibus minus unde laborum
+                    quam? Aspernatur, tempora?</p>
+                <p>🔴Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, libero facilis quis nobis quam
+                    quia nesciunt doloremque possimus ipsam, animi ab pariatur ipsum eius minima maiores aperiam enim,
+                    laborum est?</p>
+                <p>🔴Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestiae voluptatibus facere a earum
+                    ab omnis qui fuga inventore, libero commodi quae sequi officia veritatis, quis repudiandae dolorum
+                    ex error.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <!-- Example card for you and your teamates -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/fireworks.jpg " class="card-img-top"
+                        alt="🔴 Adding alt text for accessibility is good practice">
+                    <div class="card-body">
+                        <h5 class="card-title">🔴 name here</h5>
+                        <p class="card-text">🔴 Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's
+                            content.</p>
+                        <a href="https://github.com/MrSyn88/mlh-bootsrap-starter-kit" class="btn btn-primary">🔴 Go
+                            somewhere</a>
+                    </div>
+                </div>
+
+                <!-- Example list group that you can put links on -->
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://mlh.io">MLH</a></li>
+                    <li class="list-group-item"><a href="https://mlh.io/about">About MLH</a></li>
+                    <li class="list-group-item"><a href="https://init.mlh.io">INIT</a></li>
+                    <li class="list-group-item"><a href="https://init.mlh.io/challenges">Challenges</a></li>
+                    <li class="list-group-item"><a href="https://hack.mlh.io/learn/">More Starter Kits</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- This is Bootstrap's Javascript! Including it is what will make your website's interactive stuff work! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <!-- You might want to include your own scripts too! Included in here is an example file with one! -->
+    <script src="./assets/js/scripts.js"></script>
 </body>
